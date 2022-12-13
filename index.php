@@ -1,8 +1,16 @@
-<?php
-function angkaRomawi($angka)
-{
-	 $angka = intval($angka);
-	 $result = '';
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta name="description" content="Romawi" />
+        <meta name="keywords" content="Romawi" />
+        <title>Fajar Maulana prak6</title>
+	<?php
+		function angkaRomawi($angka)
+		{
+	 	$angka = intval($angka);
+		$result = '';
 	 
 	 $array = array('M' => 1000,
 	 'CM' => 900,
@@ -27,17 +35,9 @@ function angkaRomawi($angka)
 	 }
 	 
 	 return $result;
-}
+	}
 
 ?>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="UTF-8" />
-        <meta name="description" content="Romawi, Yusuf Fadillah" />
-        <meta name="keywords" content="Romawi, Yusuf, Fadillah, Yusuf Fadillah" />
-        <title>ROMAWI - Yusuf Fadillah</title>
-		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<form action="#" method="POST" align="center">
